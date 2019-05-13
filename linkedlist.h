@@ -1,0 +1,6 @@
+#ifndef GRAPHS_LINKEDLIST_H
+#define GRAPHS_LINKEDLIST_H
+
+
+
+#endif //GRAPHS_LINKEDLIST_H
