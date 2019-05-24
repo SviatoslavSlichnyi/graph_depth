@@ -74,7 +74,7 @@ void searchPath(GRAPH* graph, PATH* path, DiscEdges* discoveredEdges[], int x, i
         //якщо я наткнувя на не відкриту вершину
         if (wasDiscoverd(discoveredEdges, x, y) == 0)
         {
-            //printf("Now is being processed: %d\n",x);
+            printf("Now is being processed: %d\n",x);
             edgeWasDiscovered(discoveredEdges, x, y);
             //ми втановлюємо батька "v"
             addPath(&path, y);
